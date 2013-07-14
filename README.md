@@ -1,0 +1,4 @@
+locationpicker
+==============
+
+JavaScript Location Picker
