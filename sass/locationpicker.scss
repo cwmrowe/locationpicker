@@ -1,0 +1,51 @@
+
+@import "compass/css3";
+
+$map-width: 280px;
+$map-height: 180px;
+
+.lp-input{
+  
+  position: relative;
+  display: inline-block;
+  padding-right: 15px;
+  
+  background: image-url('pin-light.png') no-repeat right top;
+  
+}
+
+.lp-container{
+  
+  width: $map-width;
+  background: #FFF;
+  border: 1px solid #ccc;
+  position: absolute;
+  padding: 10px;
+  @include border-radius(5px);
+  @include box-shadow(0px 0px 3px #888);
+  
+  .lp-map{
+    
+    width: 100%;
+    height: $map-height;
+    
+  }
+  
+  .lp-help{
+    font-size: 10px;
+    color: #999;
+    font-family: sans-serif;
+    padding: 8px 0;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .lp-submit{
+    margin: 0px 0px 0px 3px;
+  }
+  
+  .lp-search{
+    margin: 0;
+  }
+  
+}

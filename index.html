@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>jQuery Location Picker</title>
+	<link type="text/css" rel="stylesheet" href="css/locationpicker.css" />
+</head>
+<body>
+	
+	<h1>jQuery Location Picker</h1>
+	
+	<p>
+		<input class='latlng' type='text' />
+	</p>
+	
+	<p>
+		<input class='latlng' type="text" value="50.461921,-3.525315" />
+	</p>
+	
+	<p>
+		<input class='latlng' type='text' />
+	</p>
+	
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.locationpicker.js"></script>
+	<script>
+		$('.latlng').locationPicker();
+	</script>
+</body>
+</html>
